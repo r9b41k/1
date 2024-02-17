@@ -1,0 +1,104 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .header {
+        
+        &_fixed {
+            position: fixed;
+            box-shadow: 0 4px 4px 0 rgba(255, 255, 255, 0.5);
+            background: #202020;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &_logo {
+                height: 56px;
+                width: 56px;
+                margin-left: 195px;   
+            }
+    
+            &_menu {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                width: 597px;
+                margin-right: 195px;
+    
+                &_menu-item {
+                    border: 1px solid #fff;
+                    border-radius: 20px;
+                    padding: 10px 16px;
+                    width: 128px;
+                    height: 42px;
+    
+                    font-family: "Manrope", sans-serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #fff;
+                }
+            }
+        }
+        
+        .item1::before {
+            background: url(../images/magic-wand.svg);
+            width: 16px;
+            height: 16px;
+            margin-right: 14px;
+        }
+
+        .item2::before {
+            background: url(../images/document.svg);
+            width: 16px;
+            height: 16px;
+            margin-right: 14px;
+        }
+
+        .item3::before {
+            background: url(../images/tulip.svg);
+            width: 16px;
+            height: 16px;
+            margin-right: 14px;
+        }
+
+        .item4::before {
+            background: url(../images/comment-hurt.svg);
+            width: 16px;
+            height: 16px;
+            margin-right: 14px;
+        }
+
+        &_section {
+            background: linear-gradient(225deg, #ffee32 0%, #d6d6d6 100%);
+            width: 375px;
+            height: 800px;
+
+            &_section-menu {
+                width: 56;
+                height: 56;
+                margin-left: 16px;
+                margin-top: 27px;
+
+            }
+
+            &_section-menu {
+                background: url(../images/menu.svg);
+                border: 2px solid #fff;
+                border-radius: 20px;
+                padding: 20px;
+                width: 56px;
+                height: 56px;
+                margin-left: 302px;
+                margin-top: 27px;
+            }
+
+            &_section-h1 {
+                font-family: "DynaPuff", sans-serif;
+                font-weight: 700;
+                font-size: 48px;
+                color: #fff;
+
+                margin-top: 412px;
+                margin-left: 20px;
+            }
+        }
+
+    }    
+}
